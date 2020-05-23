@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box; /* Padding and Borders included in element */
+}
+html,
+body,
+main,
+section,
+article,
+aside,
+header,
+nav,
+footer,
+img,
+div,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+   background: transparent;
+   border: 0;
+   box-sizing: border-box;
+   font-size: 100%;
+   margin: 0;
+   outline: 0;
+   padding: 0;
+   vertical-align: baseline; /* CSS Reset */
+}
+a {
+   background: transparent;
+   font-size: 100%;
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline; /* CSS Reset */
+}
+html {
+   height: 100%;
+}

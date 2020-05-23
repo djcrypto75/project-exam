@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <meta name="description" content="SpaceX Launches - Welcome to SpaceX Launches, here you can see our upcoming launches" />
+      <meta name="keywords" content="spacex launch, spacex rocket, musk, nasa, dragon spacex, tesla, spacex" />
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Titillium+Web:wght@300&display=swap" rel="stylesheet" />
+      <script src="https://kit.fontawesome.com/44fab1b675.js"></script>
+      <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png" />
+      <link rel="manifest" href="./img/site.webmanifest" />
+      <title>Home - SpaceX</title>
+   </head>
+   <body>
+      <header>
+         <nav class="topnav">
+            <div class="logo">
+               <a href="./">SpaceX</a>
+            </div>
+            <ul class="menu" id="mobile">
+               <li><a href="./" class="topnav-link active">Home</a></li>
+               <li><a href="./launches.html" class="topnav-link">Launches</a></li>
+               <li><a href="./about-us.html" class="topnav-link">About Us</a></li>
+               <li><a href="./contact.html" class="topnav-link">Contact</a></li>
+            </ul>
+            <span class="topnav-switch" id="mobile-bars">
+               <i class="fal fa-bars"></i>
+            </span>
+         </nav>
+      </header>
+      <main>
+         <div class="flex-container margin30">
+            <div class="video-container">
+               <section class="flexbox">
+                  <video title="Welcome to SpaceX Launches" id="video" width="1140" height="500" autoplay muted loop poster="./img/banner.jpg" onclick="playAndPause()">
+                     <source src="./video/launch.mp4" type="video/mp4" />
+                     <source src="./video/launch.ogg" type="video/ogg" />
+                  </video>
+                  <h1 class="banner-text">Welcome to SpaceX Launches</h1>
+               </section>
+            </div>
+         </div>
+         <div class="flex-container">
+            <section class="flexbox">
+               <img src="./img/launch.jpg" alt="Space rocket taking off for space" />
+            </section>
+            <section class="flexbox">
+               <p>
+                  Starship is the fully reusable second stage and has an integrated payload section. Starship serves as a large, long-duration spacecraft capable of carrying passengers or cargo to
+                  Earth orbit, planetary destinations, and between destinations on Earth.
+               </p>
+               <p>
+                  SpaceX’s Starship system represents a fully reusable transportation system designed to service Earth orbit needs as well as missions to the Moon and Mars. This two-stage
+                  vehicle—composed of the Super Heavy rocket (booster) and Starship (spacecraft) as shown in Figure 1—is powered by sub-cooled methane and oxygen. Starship is designed to evolve
+                  rapidly to meet near term and future customer needs while maintaining the highest level of reliability.
+               </p>
+               <p>
+                  Starship has the capability to transport satellites, payloads, crew, and cargo to a variety of orbits and Earth, Lunar, or Martian landing sites. Potential Starship customers can use
+                  this guide as a resource for preliminary payload accommodations information. This is the initial release of the Starship Users Guide and it will be updated frequently in response to
+                  customer feedback.
+               </p>
+            </section>
+         </div>
+         <div class="flex-container column margin30">
+            <h2>Our History</h2>
+            <div class="history"></div>
+         </div>
+      </main>
+      <footer>
+         <div class="flex-container-footer">
+            <section class="footer-main">
+               <div class="footer-main-item">
+                  <h3 class="footer-title">About</h3>
+                  <ul>
+                     <li><a href="#">Services</a></li>
+                     <li><a href="#">Portfolio</a></li>
+                     <li><a href="#">Pricing</a></li>
+                     <li><a href="#">Customers</a></li>
+                     <li><a href="#">Careers</a></li>
+                  </ul>
+               </div>
+               <div class="footer-main-item">
+                  <h3 class="footer-title">Resources</h3>
+                  <ul>
+                     <li><a href="#">Docs</a></li>
+                     <li><a href="#">Blog</a></li>
+                     <li><a href="#">eBooks</a></li>
+                     <li><a href="#">Webinars</a></li>
+                  </ul>
+               </div>
+               <div class="footer-main-item">
+                  <h3 class="footer-title">Stay Updated</h3>
+                  <p>Subscribe to our newsletter</p>
+                  <div id="subscribe">
+                     <form>
+                        <div class="form-error" id="subscribeError">Please enter a valid email address</div>
+                        <input class="form-control" type="text" placeholder="Enter email address" name="email" id="subscribeEmail" />
+                        <input type="submit" value="Subscribe" />
+                     </form>
+                  </div>
+               </div>
+            </section>
+            <section class="footer-social">
+               <ul class="footer-social-list">
+                  <li>
+                     <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-youtube"></i></a>
+                  </li>
+               </ul>
+            </section>
+            <section class="footer-copyright">
+               <ul class="footer-copyright-list">
+                  <li>&copy; 2020 SpaceX School Project.</li>
+               </ul>
+            </section>
+         </div>
+      </footer>
+      <script src="./js/api.js"></script>
+      <script src="./js/script.js"></script>
+   </body>
+</html>

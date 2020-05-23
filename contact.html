@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <meta name="description" content="SpaceX Launches - Welcome to SpaceX Launches, here you can see our upcoming launches" />
+      <meta name="keywords" content="spacex launch, spacex rocket, musk, nasa, dragon spacex, contact, spacex" />
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Titillium+Web:wght@300&display=swap" rel="stylesheet" />
+      <script src="https://kit.fontawesome.com/44fab1b675.js"></script>
+      <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png" />
+      <link rel="manifest" href="./img/site.webmanifest" />
+      <title>Contact - SpaceX</title>
+   </head>
+   <body>
+      <header>
+         <nav class="topnav">
+            <div class="logo">
+               <a href="./">SpaceX</a>
+            </div>
+            <ul class="menu" id="mobile">
+               <li><a href="./" class="topnav-link">Home</a></li>
+               <li><a href="./launches.html" class="topnav-link">Launches</a></li>
+               <li><a href="./about-us.html" class="topnav-link">About Us</a></li>
+               <li><a href="./contact.html" class="topnav-link active">Contact</a></li>
+            </ul>
+            <span class="topnav-switch" id="mobile-bars">
+               <i class="fal fa-bars"></i>
+            </span>
+         </nav>
+      </header>
+      <main>
+         <div class="flex-container column">
+            <section class="contact-column">
+               <h1>Contact Us</h1>
+               <div class="contact-container" id="contact">
+                  <form>
+                     <input class="form-control" type="text" placeholder="Name" name="name" id="name" />
+                     <div class="form-error" id="nameError">Please enter your name</div>
+                     <input class="form-control" type="text" placeholder="Email" name="email" id="email" />
+                     <div class="form-error" id="emailError">Please enter a valid email address</div>
+                     <textarea class="form-control" name="textarea" id="textarea" placeholder="Your message..."></textarea>
+                     <input type="submit" id="submit" />
+                  </form>
+               </div>
+            </section>
+            <section class="flexbox">
+               <p>SPACEX HEADQUARTERS</p>
+               <p>Rocket Road</p>
+               <p>Hawthorne, California</p>
+            </section>
+         </div>
+      </main>
+      <footer>
+         <div class="flex-container-footer">
+            <section class="footer-main">
+               <div class="footer-main-item">
+                  <h3 class="footer-title">About</h3>
+                  <ul>
+                     <li><a href="#">Services</a></li>
+                     <li><a href="#">Portfolio</a></li>
+                     <li><a href="#">Pricing</a></li>
+                     <li><a href="#">Customers</a></li>
+                     <li><a href="#">Careers</a></li>
+                  </ul>
+               </div>
+               <div class="footer-main-item">
+                  <h3 class="footer-title">Resources</h3>
+                  <ul>
+                     <li><a href="#">Docs</a></li>
+                     <li><a href="#">Blog</a></li>
+                     <li><a href="#">eBooks</a></li>
+                     <li><a href="#">Webinars</a></li>
+                  </ul>
+               </div>
+               <div class="footer-main-item">
+                  <h3 class="footer-title">Stay Updated</h3>
+                  <p>Subscribe to our newsletter</p>
+                  <div id="subscribe">
+                     <form>
+                        <div class="form-error" id="subscribeError">Please enter a valid email address</div>
+                        <input class="form-control" type="text" placeholder="Enter email address" name="email" id="subscribeEmail" />
+                        <input type="submit" value="Subscribe" />
+                     </form>
+                  </div>
+               </div>
+            </section>
+            <section class="footer-social">
+               <ul class="footer-social-list">
+                  <li>
+                     <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-youtube"></i></a>
+                  </li>
+               </ul>
+            </section>
+            <section class="footer-copyright">
+               <ul class="footer-copyright-list">
+                  <li>&copy; 2020 SpaceX School Project.</li>
+               </ul>
+            </section>
+         </div>
+      </footer>
+      <script src="./js/script.js"></script>
+      <script src="./js/contact.js"></script>
+   </body>
+</html>
