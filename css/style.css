@@ -192,6 +192,7 @@ textarea {
    flex-direction: row;
    -webkit-flex-direction: row;
    max-width: 1140px;
+   margin: 20px;
 }
 .contact-column {
    border-radius: 2px;
@@ -206,9 +207,10 @@ textarea {
 }
 form {
    width: 100%;
-   margin: 20px;
 }
-
+.address {
+   padding-left: 20px;
+}
 /* FOOTER
 ------------------------------------------------------------------------------*/
 .flex-container-footer {
@@ -245,15 +247,19 @@ a:hover {
    flex-wrap: wrap;
    justify-content: center;
 }
+.footer-main-item p {
+   margin-left: 0;
+}
 .footer-main-item {
    margin: 10px 5px;
    padding: 10px;
    min-width: 12.5rem;
 }
-form {
+#subscribe {
    display: flex;
    flex-wrap: wrap;
 }
+
 .footer-main-item input[type="email"] {
    border: 0;
    padding: 10px;
@@ -299,6 +305,9 @@ form {
 .footer-copyright-list li {
    margin: 0.125rem 0.625rem;
    white-space: nowrap;
+}
+.address p {
+   margin: 20px;
 }
 
 /* MEDIA 
